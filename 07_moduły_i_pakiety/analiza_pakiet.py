@@ -17,3 +17,5 @@ drzewa_decyzyjne()
 
 # %%
 mean(dane)
+
+# %%
