@@ -8,12 +8,10 @@ precision = 0.000001
 def derivative(w): return 2 * w - 4
 
 
-w_prew = w_0
-
-
 while previous_step_size > precision and iters < max_iters:
-    w_0 = w_0 - learning_rate * derivative(w_prew)
-    w_prew = w_0
+    w_prev = w_0
+    w_0 = w_0 - learning_rate * derivative(w_prev)
+    previous_step_size = abs(w_0 - w_prev)
     iters += 1
 
 print(f'Minimum lokalne w punkcie: {w_0:.2f}')
