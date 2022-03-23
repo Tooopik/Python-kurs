@@ -1,8 +1,9 @@
-#%%
- with open('plw_d.csv', 'r') as file:
+# %%
+with open('plw_d.csv', 'r') as file:
     content = file.read().splitlines()
-    result = []
+
+result = []
 for data in content[1:]:
     result.append(int(data.split(',')[-1]))
-print(max(result))
+print(f'Max Vol: {max(result)}')
 # %%
