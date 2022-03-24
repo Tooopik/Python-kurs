@@ -1,3 +1,7 @@
 {
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "workbench.preferredLightColorTheme": "Light High Contrast",
+    "workbench.colorTheme": "Monokai",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Monokai"
 }
