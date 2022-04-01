@@ -13,7 +13,7 @@ def identity(number):
     return result
 
 
-print(identity(2))
+print(identity(4))
 
 # %%
 
